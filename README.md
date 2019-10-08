@@ -1,5 +1,5 @@
 # Memcached
-
+  
 Memcached is a high performance multithreaded event-based key/value cache
 store intended to be used in a distributed system.
 
@@ -23,10 +23,10 @@ list to ask questions, github issues aren't seen by everyone!
 
 ## Environment
 
-Be warned that the -k (mlockall) option to memcached might be
-dangerous when using a large cache.  Just make sure the memcached machines
-don't swap.  memcached does non-blocking network I/O, but not disk.  (it
-should never go to disk, or you've lost the whole point of it)
+Be warned that the -k (mlockall) option to memcached might be dangerous
+when using a large cache.  Just make sure the memcached machines
+don't swap.  memcached does non-blocking network I/O, but not disk.  
+(it should never go to disk, or you've lost the whole point of it)
 
 ## Website
 
